@@ -1,0 +1,14 @@
+wandb/*
+storage/checkpoint_backup03022024/
+storage/checkpoints_backup25032024/
+storage/checkpoints*/
+storage/checkpoints/
+storage/log/
+storage/datasets/
+storage/tensorboard/
+GOODCMNIST/
+docs/build
+/docs/source/_autosummary/
+**/__pycace__/
+/GOOD/kernel/launchers/ada_launcher.py
+graph_ood.egg-info/*
