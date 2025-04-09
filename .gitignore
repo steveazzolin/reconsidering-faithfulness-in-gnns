@@ -9,6 +9,6 @@ storage/tensorboard/
 GOODCMNIST/
 docs/build
 /docs/source/_autosummary/
-**/__pycace__/
+**/__pycache__/
 /GOOD/kernel/launchers/ada_launcher.py
 graph_ood.egg-info/*
