@@ -1,0 +1,16 @@
+includes:
+  - base.yaml
+model:
+  model_name: GSATGIN
+ood:
+  ood_alg: GSAT
+  ood_param: 0.5
+  extra_param:
+    - true
+    - 10
+    - 0.2
+train:
+  mile_stones:
+    - 150
+log_file: exp_0
+clean_save: true

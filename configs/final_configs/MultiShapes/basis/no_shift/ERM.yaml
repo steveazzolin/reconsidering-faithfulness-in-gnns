@@ -1,0 +1,12 @@
+includes:
+  - base.yaml
+model:
+  model_name: GIN
+ood:
+  ood_alg: ERM
+  ood_param: -1.0
+train:
+  mile_stones:
+    - 150
+log_file: exp_0
+clean_save: true

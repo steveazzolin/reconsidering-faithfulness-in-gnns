@@ -1,0 +1,23 @@
+ 
+{
+    "datfaset" : "GOODMotif2",
+    "modelname" : "GISST_gc",
+    "architecture": "GINmod",
+    "num_hidden_layers" : 3,
+    "hidden_dims" : 300,
+    "lr" : 0.0001,
+    "epochs" : 200,
+    "batch_size" : 32,
+    "weight_decay" : 0.0005,
+    "dropout_rates" : 0.3,
+    "x_l1_coeffs" : 0.005,
+    "x_ent_coeffs" : 0.01,
+    "edge_l1_coeffs" : 0.005,
+    "edge_ent_coeffs" : 0.1,
+    "verbose" : false,
+    "test_explanation" : false,
+    "test_faithfulness" : true,
+    "test_full_faithfullness" : true,
+    "test_fidelity" : true,
+    "mitigation":"HM"
+}

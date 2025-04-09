@@ -1,0 +1,58 @@
+task: train
+random_seed: 123
+exp_round: null
+log_file: default
+gpu_idx: 0
+ckpt_root: null
+ckpt_dir: null
+save_tag: null
+other_saved: null
+clean_save: False
+pytest: False
+pipeline: Pipeline
+num_workers: 0
+mitigation_readout: null
+mitigation_expl_scores: default
+mitigation_expl_scores_topk: -1
+expval_budget: 8 
+numsamples_budget: 800 
+fidelity_alpha_2: 0.9 
+nec_alpha_1: 0.05 
+feat_int_alpha: 0.2 
+average_edge_attn: default 
+save_metrics: False 
+intervention_distrib: model_dependent 
+acc_givenR: False 
+mask: False 
+metrics: "" 
+debias: True 
+samplingtype: deconfounded 
+nec_number_samples: prop_G_dataset 
+log_id: ""
+splits: ""
+ratios: ""
+train:
+  weight_decay: 0.
+  save_gap: 10
+  tr_ctn: False
+  epoch: 0
+  ctn_epoch: 0
+  alpha: 0.2  #parameter for DANN
+  stage_stones: []
+  pre_train: 0
+model:
+  dim_hidden: 300
+  dim_ffn: 300
+  dropout_rate: 0.5
+dataset:
+  dataloader_name: BaseDataLoader
+  dataset_root: null
+  generate: False
+  dim_node: null
+  dim_edge: null
+  num_classes: null
+  num_envs: null
+  feat_dims: null
+  edge_feat_dims: null
+ood:
+  extra_param: null
