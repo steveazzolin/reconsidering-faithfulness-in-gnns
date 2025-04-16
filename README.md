@@ -39,6 +39,12 @@ To enable one of the four mitigations, please append the following arguments to 
 --mitigation_sampling raw     # for CF (CIGA only)
 ```
 
+
+### Datasets
+
+Datasets are automatically downloaded and processed by the scripts available in `GOOD/data/good_datasets/`.
+
+
 ### Train a model
 
 For more details on training a model, refer to the original codebase of [GOOD](https://github.com/divelab/GOOD?tab=readme-ov-file) and [LECI](https://github.com/divelab/LECI/tree/LECI-1.0.0).
