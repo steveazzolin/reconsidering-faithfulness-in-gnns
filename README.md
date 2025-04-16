@@ -83,8 +83,7 @@ For the code regarding the experiments with SEGNNs, we provide in the *SelfExpla
 ### Reference to paper
 
 ```bibtex
-@inproceedings{
-    azzolin2025reconsidering,
+@inproceedings{azzolin2025reconsidering,
     title={Reconsidering Faithfulness in Regular, Self-Explainable and Domain Invariant {GNN}s},
     author={Steve Azzolin and Antonio Longa and Stefano Teso and Andrea Passerini},
     booktitle={The Thirteenth International Conference on Learning Representations},
