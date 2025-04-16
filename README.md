@@ -78,3 +78,17 @@ This is only for datasets annotated with ground truth, i.e., with `data.edge_gt`
 
 
 For the code regarding the experiments with SEGNNs, we provide in the *SelfExplainable* folder the related codebase with further details.
+
+
+### Reference to paper
+
+```bibtex
+@inproceedings{
+    azzolin2025reconsidering,
+    title={Reconsidering Faithfulness in Regular, Self-Explainable and Domain Invariant {GNN}s},
+    author={Steve Azzolin and Antonio Longa and Stefano Teso and Andrea Passerini},
+    booktitle={The Thirteenth International Conference on Learning Representations},
+    year={2025},
+    url={https://openreview.net/forum?id=kiOxNsrpQy}
+}
+```
